@@ -1,0 +1,223 @@
+.main55{
+    background-color: black;
+    color:white;
+}
+.top55{
+    display: inline-block;
+    width: 800px;
+    margin-left: 200px;
+}
+.para55{
+    margin: 0px;
+}
+.image55{
+    
+    width: 800px;
+    height: 450px;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+.top255{
+    margin-left: 36px;
+}
+.last55{
+    width: 300px;
+    padding-left: 200px;
+}
+.side55{
+    margin-top: -1000px;
+    display: inline-block;
+    margin-left: 630px;
+    width: 280px;
+    border: grey solid;
+    padding-left: 20px;
+}
+.s55,.a55{
+    margin: 0px;
+}
+.d55{
+    width: 92%;
+    background-color: black;
+    border: white double;
+    color: white;
+}
+.c55{
+    text-align: center;
+}
+.f55{
+    width: 300px;
+}
+.g55{
+    width: 150px;
+    border-radius: 75px;
+}
+.b55{
+    background-color: goldenrod;
+    color:black;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 8px;
+    width: 110px;
+    height: 45px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+ 
+.b55:hover {
+    background-color: rgba(0,136,169,0.8);
+
+    opacity: .7;
+}
+
+/* footer */
+.b1{
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: black;
+    color:grey;
+}
+.footer1{
+    padding-left: 160px;
+    vertical-align: top;
+}
+.footer2{
+    padding-left: 150px;
+    vertical-align: top;
+    padding-right: 150px;
+}
+.footer1,.footer2,.footer3{
+    display: inline-block;
+}
+.emoji{
+    display: inline-block;
+}
+.f4{
+    display: inline-block;
+    margin-left: 170px;
+}
+
+
+.Temp55{
+     margin-left: -120px;
+}
+
+
+
+.Offer55{
+    margin-top: 40px;
+    margin-left: -110px;
+}
+
+.Flex55{
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+}
+
+
+.Location55{
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+
+}
+
+
+.Local55{
+    margin-top: 35px;
+    margin-left: 150px;
+    color: goldenrod;
+}
+
+.Based55{
+    margin-top: 20px;
+}
+
+
+.Monto55 {
+    display : grid;
+    grid-template-rows:  1fr 1fr;
+}
+
+.Local55{
+    margin-top:  -70px;
+    margin-right: 60px;
+}
+
+
+
+.Image555{
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr ;
+     row-gap: 10px;
+     margin-top: 0;
+}
+
+
+.header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: sticky;
+    top : 0;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+button{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+button{
+    padding: 9px 25px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin-bottom: 0;
+}
+.logo{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    padding-left: 100px;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a{
+    transition: all 0.4s ease 0s;
+}
+
+a:hover {
+    color: #0088a9;
+  transition: all 0.4s ease 0s;
+
+}
+
+
+navlinks li a:hover{
+   color: #0088a9;
+}
+li,a{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: goldenrod;
+    text-decoration: none;
+}

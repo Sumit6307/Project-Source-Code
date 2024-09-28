@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Call - PrimeEstate</title>
+</head>
+
+
+<body style="font-family: Arial, sans-serif; background-color: #000; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; padding: 0; color: #DAA520;">
+    <div style="background-color: #1a1a1a; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); max-width: 500px; width: 100%;">
+        <h2 style="text-align: center; color: #DAA520;">Book a Call with PrimeEstate</h2>
+        <p style="text-align: center; color: #DAA520;">Fill in the form below and we’ll schedule a call to discuss your real estate needs!</p>
+        <form action="Property" method="GET">
+            <label for="name" style="font-weight: bold; margin-bottom: 5px; display: block; color: #DAA520;">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #DAA520; border-radius: 5px; font-size: 14px; background-color: #333; color: #fff;">
+            
+            <label for="email" style="font-weight: bold; margin-bottom: 5px; display: block; color: #DAA520;">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #DAA520; border-radius: 5px; font-size: 14px; background-color: #333; color: #fff;">
+            
+            <label for="phone" style="font-weight: bold; margin-bottom: 5px; display: block; color: #DAA520;">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #DAA520; border-radius: 5px; font-size: 14px; background-color: #333; color: #fff;">
+            
+            <label for="date" style="font-weight: bold; margin-bottom: 5px; display: block; color: #DAA520;">Preferred Call Date:</label>
+            <input type="date" id="date" name="date" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #DAA520; border-radius: 5px; font-size: 14px; background-color: #333; color: #fff;">
+            
+            <label for="message" style="font-weight: bold; margin-bottom: 5px; display: block; color: #DAA520;">Additional Information (Optional):</label>
+            <textarea id="message" name="message" rows="4" placeholder="Any specific questions or concerns?" style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #DAA520; border-radius: 5px; font-size: 14px; background-color: #333; color: #fff;"></textarea>
+            
+           <a   ><button type="submit" style="width: 100%; padding: 12px; background-color: #DAA520; border: none; border-radius: 5px; color: #000; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;">Book a Call </button></a> 
+        </form>
+    </div>
+</body>
+</html>

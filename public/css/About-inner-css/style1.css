@@ -1,0 +1,150 @@
+.er{
+    background-color: black;
+    color: goldenrod;
+}
+.image{
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 45px;
+}
+.des{
+    margin-left: 45px;
+}
+.image,.info,.prop1,.prop2{
+    display: inline-block;
+}
+.para{
+    margin: 0px;
+    padding-right: 30px;
+}
+.para1{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+.main{
+    background-color: #272727;
+    margin-left: 175px;
+    margin-right: 175px;
+    text-align: justify;
+    box-shadow: goldenrod 0px 4px 20px;
+}
+.info{
+    padding-left: 30px;
+}
+.image1{
+    width: 350px;
+}
+.prop1{
+    margin-left: 175px;
+}
+.prop2{
+    margin-left: 20px;
+}
+.image1{
+    border-radius: 20px;
+}
+/* Footer */
+.logo34{
+    width: 120px;
+    margin-left: 50px
+}
+.b1{
+    justify-content: space-between;
+    cursor: pointer;
+    border:0px;
+    background-color: black;
+    color: goldenrod;
+}
+.mc{
+    width: 950px;
+    margin-left: 300px;
+}
+.footer1{
+    padding-left: 160px;
+    vertical-align: top;
+}
+.footer2{
+    padding-left: 150px;
+    vertical-align: top;
+    padding-right: 150px;
+}
+.footer1,.footer2,.footer3{
+    display: inline-block;
+}
+.emoji{
+    display: inline-block;
+}
+.f4{
+    display: inline-block;
+    margin-left: 170px;
+}
+.w34{
+    background-color: black;
+     border: grey double;
+     color: white;
+}
+.a34{
+    margin: 0px;
+}
+/* Devesh */
+.header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: sticky;
+    top : 0;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+button{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+button{
+    padding: 9px 25px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    padding-left: 100px;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a{
+    transition: all 0.4s ease 0s;
+}
+navlinks li a:hover{
+   color: #0088a9;
+}
+li,a{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: goldenrod;
+    text-decoration: none;
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+body {
+      margin-left: 160px;
+      
+}
+
+button{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+button{
+    padding: 9px 25px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a{
+    transition: all 0.4s ease 0s;
+}
+navlinks li a:hover{
+   color: #0088a9;
+}
+
+a:hover {
+    color: #0088a9;
+  transition: all 0.4s ease 0s;
+
+}
+
+
+li,a{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.para1 {
+      color:  white;
+      margin-bottom:  10px;;
+}
+
+.para2 {
+     max-width: 70px;
+     color: white;
+}
+
+
+.Image1 {
+      margin-bottom: 10px;
+      border-radius: 10px;
+      height: 30vh;
+      width: 21vw;
+}
+
+
+.Main2 {
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 60px ;
+}
+
+.Heart{
+      color: white;
+      margin-left: 50px;
+}
+
+.Heart:active {
+    color: red;
+     transition: color .00000000000001s   ;
+}
+
+.Price {
+    max-width: 310px;
+     display:  grid;
+     grid-template-columns:  1fr 1fr 1fr ;
+}
+
+.Buton1{
+      padding-left:25px ;
+      padding-right: 25px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      background-color: goldenrod;
+      color: black; 
+      font-weight: 500;
+      font-style: italic;
+      font-family: Arial;
+      
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo-section p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #3498db;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+
+.b1{
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: black;
+}
+.footer1{
+    padding-left: 160px;
+    vertical-align: top;
+    color: white;
+}
+.footer2{
+    padding-left: 150px;
+    vertical-align: top;
+    padding-right: 150px;
+    color: white;
+   
+    
+}
+.footer1,.footer2,.footer3{
+    display: inline-block;
+}
+.emoji{
+    display: inline-block;
+}
+.f4{
+    display: inline-block;
+    margin-left: 170px;
+    color: white;
+}
+.footer3{
+    color: antiquewhite;
+}
+.nom{
+    background-color: white;
+    color: black;
+}
+.nom a{
+    color: black;
+}
+.man{
+ width: 100px;
+ height: 100px;
+}
+.bye{
+    color: white;
+}
+
+.Correct55{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+}
+

@@ -1,0 +1,166 @@
+.er{
+    background-color: black;
+    color: goldenrod;
+}
+.image34{
+    width: 15px;
+}
+.main{
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: larger;
+    font-family: Arial;
+}
+
+
+.navlinks li a {
+    transition: all 0.4s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #0088a9;
+}
+
+a:hover {
+    color: #0088a9;
+  transition: all 0.4s ease 0s;
+
+}
+
+
+.image{
+    width:100px;
+    border-radius: 50px;
+    margin-left: 12px; 
+    margin-top: 20px;
+}
+.info{
+    text-align: start;
+    padding-left: 20px;
+    border-radius: 8px;
+    width: 200px;
+    margin: 4px;
+    background-color: #272727;
+}
+.main2,.main3{
+    background-color: #101314;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.15ms;
+    margin-right : 25px;
+    border-radius: 20px;   
+    margin-bottom: 30px;
+    box-shadow: goldenrod 0 4px 20px;
+}
+.main3:hover,.main2:hover{
+    opacity: 0.7;
+}
+.main3{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.name,.info,.main3,.main2,.head{
+    display: inline-block;
+}
+.b1{
+    justify-content: space-between;
+    cursor: pointer;
+    border: 0px;
+    background-color: black;
+    color: goldenrod;
+}
+.footer1{
+    padding-left: 160px;
+    vertical-align: top;
+}
+.footer2{
+    padding-left: 150px;
+    vertical-align: top;
+    padding-right: 150px;
+}
+.footer1,.footer2,.footer3,.emoji{
+    display: inline-block;
+}
+.f4{
+    display: inline-block;
+    margin-left: 170px;
+}
+.logo34{
+    width: 120px;
+    margin-left: 50px
+}
+.head34{
+    border: gray double;
+    margin: 0px 175px 0px 175px;
+    height: 50px;
+}
+.w34{
+    border: gray double;
+    background-color: black;
+    color: gray;
+}
+/*DEVESH */
+
+
+.header{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    position: sticky;
+    top : 0;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+button{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+button{
+    padding: 9px 25px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a{
+    transition: all 0.4s ease 0s;
+}
+navlinks li a:hover{
+   color: #0088a9;
+}
+li,a{
+    font-family: "Monsterrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: goldenrod;
+    text-decoration: none;
+}

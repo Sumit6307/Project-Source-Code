@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    z-index: 2;
+  
+}
+
+.navlinks li a {
+    transition: all 0.4s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #0088a9;
+}
+a:hover {
+    color: #0088a9;
+  transition: all 0.4s ease 0s;
+
+}
+
+
+.login-box{
+/* background-color: blue;  */
+border:  4px solid goldenrod;
+border-radius: 20px;
+box-shadow: 0px 0px 20px 7px rgba(218, 165, 32, 0.49);
+margin-top: 100px;
+margin-left: 450px;
+margin-right: 450px;
+margin-bottom: 50px;
+/* margin: 100px; */
+/* padding: 100px; */
+
+}
+
+.login-form{
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 50px;
+
+}
+.login-form input{
+    text-align: center;
+    padding: 1px;
+}
+.same-button{
+    height: 25px;
+    width: 400px;
+    margin: 5px;
+    border: 5px solid double grey;
+    /* border: none; */
+    border-radius: 30px;
+    align-self: center;
+    background-color: black;
+}
+.login-form img{
+    height: 220px;
+    width: 220px;
+}
+
+.signin-button {
+    height: 30px;
+    width: 420px;
+    border: 3px solid goldenrod;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+    cursor: pointer;
+    border: none;
+}
+.signin-button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+    transition: all 0.5s ease 0s;
+}

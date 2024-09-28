@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+position: relative ;
+
+}
+
+.login {
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    position: absolute;
+}
+
+.login {
+    padding: 9px 25px;
+    background-color: rgba(213, 166, 46, 0.858);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.7s ease 0s;
+}
+
+.login:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.4s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #0088a9;
+}
+
+li,a {
+    font-family: "Monsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.line {
+    width: 37%;
+    height: 50%;
+    margin-left: 125px;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.getintouch {
+    background-color: goldenrod;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 60px 20px;
+    padding: 9px 20px;
+    border: none;
+    transition: all 0.7s ease 0s;
+}
+
+.getintouch:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+
+}
+
+.span2 {
+    float: left;
+    /* display: inline-block; */
+    /* justify-content: space-around; */
+}
+
+.line2 {
+    width: 37%;
+    /* height: 50%; */
+    margin-left: 125px;
+    margin-top: 122px;
+    margin-bottom: 100px;
+    display: inline-block;
+
+    /* float: left; */
+}
+
+.mission {
+
+    float: right;
+    margin-right: 125px;
+}
+.span-team{
+    text-align: center;
+    }
+
+
+.team-about{
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 50px;
+}
+
+.span-team h1{
+    margin-top: 480px;
+    padding-top: 100px;
+    /* margin-bottom: 100px; */
+}
+.span-team div img{
+   margin-bottom: 10px;
+}
+.span-team div{
+    display: inline-block;
+    width: 20%;
+    margin-left: 58px;
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+.span-team div p{
+    padding-top: 15px ;
+}
+.span-team div img{
+    height: 150px;
+    width: 150px;
+}
+.span3{
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.touch{
+    text-align: center;
+    
+    padding: 10px;
+    /* background-color: aqua; */
+    /* width: 60%; */
+    /* align-self: center; */
+    justify-self: center;
+}
+.getintouchform{
+    width: 800px;
+    height: 35px;
+    /* padding: 10px; */
+    border-radius: 4px;
+    margin: 12px;
+    border: 1px solid goldenrod;
+
+}
+.form-group input{
+    text-align: center;
+    /* padding: 20px; */
+}
+.touch button{
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+.getintouchform2{
+    width: 800px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 45px;
+    border: 1px solid goldenrod;
+}
+.contact{
+    /* width: 40%; */
+    text-align: center;
+    margin: 100px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.b1{
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: black;
+}
+.footer1{
+    padding-left: 160px;
+    vertical-align: top;
+    color: white;
+}
+.footer2{
+    padding-left: 150px;
+    vertical-align: top;
+    padding-right: 150px;
+    color: white;
+   
+    
+}
+.footer1,.footer2,.footer3{
+    display: inline-block;
+}
+.emoji{
+    display: inline-block;
+}
+.f4{
+    display: inline-block;
+    margin-left: 170px;
+    color: white;
+}
+.footer3{
+    color: antiquewhite;
+}
+.nom{
+    background-color: white;
+    color: black;
+}
+.nom a{
+    color: black;
+}
+.man{
+ width: 100px;
+ height: 100px;
+}
+.bye{
+    color: white;
+}
+
+
+
+
+
+
